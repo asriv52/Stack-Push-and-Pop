@@ -1,6 +1,7 @@
 Stack  =  [None, None, None, None, None, None, None, None, None, None]
 TopPointer = -1
 
+#ADD
 def push(newdata):
       global TopPointer
       if (TopPointer+1> len(Stack)):
@@ -9,7 +10,7 @@ def push(newdata):
             TopPointer = TopPointer +1
             Stack[TopPointer] = newdata
       
-      
+#REMOVE      
 def pop():
       global TopPointer
       if TopPointer < 0:
